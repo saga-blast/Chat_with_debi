@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chat_with_debi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Chat_with_debi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.chat_with_debi">
+        <activity android:name=".userprofile"></activity>
+        <activity android:name=".statusFragment" />
+        <activity android:name=".splashscreen" />
+        <activity android:name=".specificchat" />
+        <activity android:name=".setProfile" />
+        <activity android:name=".otpAuthentication" />
+        <activity android:name=".firebasemodel" />
+        <activity android:name=".chatFragment" />
+        <activity android:name=".chatActivity" />
+        <activity android:name=".callFragment" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".PagerAdapter" />
+        <activity android:name=".MessagesAdapter" />
+        <activity android:name=".Messages" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

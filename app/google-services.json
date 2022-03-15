@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "410646158956",
+    "project_id": "chat-with-debi",
+    "storage_bucket": "chat-with-debi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410646158956:android:43419a1bdc19046e980249",
+        "android_client_info": {
+          "package_name": "com.example.chat_with_debi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410646158956-m2sf59vueaa6rka987knplt8aog3ke2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chat_with_debi",
+            "certificate_hash": "f8af4fa8330ecebb0e60f20d112a9471904f8756"
+          }
+        },
+        {
+          "client_id": "410646158956-re0n9acrrreciacmerti4hkop0c82gs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlWYdaImerypL1GAl6bRfOltAXAPyrIXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410646158956-re0n9acrrreciacmerti4hkop0c82gs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

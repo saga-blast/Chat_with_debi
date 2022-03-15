@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#000000"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+
+        <ImageButton
+            android:id="@+id/backbuttonofviewprofile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:tint="#ffffff">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/backbuttonofviewprofile"
+            android:id="@+id/myapptext"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_stat_name2"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="12dp"
+            android:id="@+id/profile_page"
+            android:tint="#ffffff"
+            tools:ignore="RtlSymmetry" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_image1"
+        android:layout_alignBottom="@+id/"
+        />
+
+
+
+</RelativeLayout>
